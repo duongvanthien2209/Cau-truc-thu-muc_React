@@ -1,8 +1,15 @@
 import React from 'react';
 
+import Header from '../components/Header/index';
+import Footer from '../components/Footer/index';
+
 const Login = () => {
     return (
-        <div>Login</div>
+        <div>
+            <Header />
+            <h1>Body</h1>
+            <Footer />
+        </div>
     );
 };
 
